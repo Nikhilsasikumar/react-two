@@ -1,0 +1,28 @@
+.Container {
+    text-align: center;
+  }
+  .Container-Section {
+    background-color: #282c34;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .Container-Section label{
+    font-size: 16px;
+    color: #676b73;
+    font-weight: 500;
+  }
+  .Container-Section input{
+    width: 80%;
+    height: 25px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 0;
+  }
+  
+  
